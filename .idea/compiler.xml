@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="just-trip-portal-model" />
+        <module name="just-trip-portal-services" />
+        <module name="just-trip-portal-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="just-trip-portal-app" target="1.8" />
+      <module name="just-trip-portal-model" target="1.8" />
+      <module name="just-trip-portal-services" target="1.8" />
+      <module name="just-trip-portal-ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

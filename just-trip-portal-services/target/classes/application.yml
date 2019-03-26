@@ -1,0 +1,12 @@
+app:
+  name: just-trip-portal-app
+spring:
+  profiles:
+    active: h2
+logging:
+  pattern:
+    console: datetime:%d [%level] %logger  message:%msg%n
+    file: datetime:%d [%level] %logger  message:%msg%n
+  level:
+    org.springframework.web: DEBUG
+    org.ksr: INFO

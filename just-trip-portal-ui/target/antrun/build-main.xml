@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="../just-trip-portal-services/src/main/resources/static"/>
+  <copy todir="../just-trip-portal-services/src/main/resources/static">
+    <fileset excludes="**/*.map" includes="**/*" dir="/Users/kpqm195/workspace/workout/just-trip-portal-app/just-trip-portal-ui/dist/just-trip-portal-ui"/>
+  </copy>
+</target>
+</project>
